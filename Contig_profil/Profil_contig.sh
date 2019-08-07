@@ -11,7 +11,6 @@ done < "Y.txt"
 
 for file in Contig*.noINDELs.ID.vcf.noRep.recode.vcf.txt
 do
-echo $file
 awk -F' ' '{sum+=$6;} END{if(sum > 0)print $1,sum/NR,"M";}' $file >> Y_miss_male.txt
 done
 
@@ -23,7 +22,6 @@ done < "Y.txt"
 
 for file in Contig*.noINDELs.ID.vcf.noRep.recode.vcf.txt
 do
-echo $file
 awk -F' ' '{sum+=$6;} END{if(sum > 0)print $1,sum/NR,"F";}' $file >> Y_miss_femelle.txt
 done
 
