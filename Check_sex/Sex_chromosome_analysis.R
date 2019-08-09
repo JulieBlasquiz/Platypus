@@ -1,9 +1,7 @@
-"""
-Aout 2019
-Julie Blasquiz
-Sex chromosome analysis :
-Graphe -> Proportion of homozygous genotypes on the X chromosome vs proportion of non missing genotypes on the Y chromosome
-"""
+#Aout 2019
+#Julie Blasquiz
+#Sex chromosome analysis :
+#Graph -> Proportion of homozygous genotypes on the X chromosome vs proportion of non missing genotypes on the Y chromosome
 
 library(ggfortify)
 
